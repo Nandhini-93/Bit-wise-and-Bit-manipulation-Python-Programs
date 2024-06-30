@@ -1,0 +1,9 @@
+n = int(input())
+a = (str(bin(n))[2:]).count('1')
+print(a)
+
+Sample Input :
+4
+
+Sample Output :
+1
